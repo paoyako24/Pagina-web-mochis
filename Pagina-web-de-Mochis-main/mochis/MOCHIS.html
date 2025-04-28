@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochis de Fresa,Chocolate,Vainilla y Matcha</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-pink-100">
+
+    <!-- Menú de Navegación -->
+    <nav class="bg-white shadow-md fixed top-0 left-0 w-full z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <h1 class="text-2xl font-bold text-pink-600">🍡 Mochis Deliciosos</h1>
+                <ul class="flex space-x-6 text-gray-700 font-semibold">
+                    <li><a href="#" onclick="mostrarSeccion('inicio')" class="hover:text-pink-600">Inicio</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('ingredientes-fresa')" class="hover:text-pink-600">Ingredientes Fresa</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('preparacion-fresa')" class="hover:text-pink-600">Preparación Fresa</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('ingredientes-chocolate')" class="hover:text-brown-700">Ingredientes Chocolate</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('preparacion-chocolate')" class="hover:text-brown-700">Preparación Chocolate</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('ingredientes-vainilla')" class="hover:text-yellow-500">Ingredientes Vainilla</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('preparacion-vainilla')" class="hover:text-yellow-500">Preparación Vainilla</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('ingredientes-matcha')" class="hover:text-green-500">Ingredientes Matcha</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('preparacion-matcha')" class="hover:text-green-500">Preparación Matcha</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('videos')" class="hover:text-gray-800">Videos</a></li>
+                    <li><a href="#" onclick="mostrarSeccion('galeria')" class="hover:text-gray-800">Galería</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Bienvenida -->
+    <div id="inicio" class="relative h-screen flex justify-center items-center text-center">
+        <img src="https://source.unsplash.com/1600x900/?kawaii,dessert" alt="Imagen Cute Mochis" class="absolute inset-0 w-full h-full object-cover opacity-80">
+        <div class="relative z-10 bg-white bg-opacity-70 p-8 rounded-lg shadow-lg">
+            <h2 class="text-4xl font-bold text-pink-700">🍡 ¡Bienvenido a la página donde puedes crear tus mochis! 🎉</h2>
+            <p class="text-lg text-gray-800 mt-4">Descubre deliciosas recetas de Mochis de Fresa, Chocolate,Vainilla y Matcha.</p>
+        </div>
+    </div>
+
+    <div class="pt-20 p-6 flex justify-center">
+        <div class="max-w-4xl w-full">
+
+            <!-- Ingredientes y Preparación de Mochis de Fresa -->
+            <div id="ingredientes-fresa" class="bg-white p-6 rounded-lg shadow-lg hidden">
+                <h3 class="text-2xl font-bold text-pink-600 mb-4">🛒 Ingredientes de Mochis de Fresa</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    <li>160g de harina de arroz.</li>
+                    <li>1 cucharada de azúcar.</li>
+                    <li>250ml de agua.</li>
+                    <li>Almidón de patata o maicena para espolvorear.</li>
+                </ul>
+            </div>
+
+            <div id="preparacion-fresa" class="bg-white p-6 rounded-lg shadow-lg hidden">
+                <h3 class="text-2xl font-bold text-pink-600 mb-4">🥢 Preparación de Mochis de Fresa</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                
+                <li>Comienza mezclando bien la harina en un bol grande 
+                    y el azucar en un bol grande remueve hasta que esten bien integrados ambos ingredientes 
+                </li>
+                <li> Anade poco a poco el agua mientras remueves la masa 
+                    tiene que quedar bien humeda ,mezclando de menara homogenea con las manos
+                </li>
+                <li>Tapa la mezcla con papel film, y calienta en el microondas durante 2 minutos a potencia elevada.
+                   <br>  La mezcla ira cogiendo un poco de textura mientras se calienta. </li>
+                   <li>Sácalo del microondas y sigue removiendo bien, amasando enérgicamente. Notaras que la masa se<br> vuelve cada vez mas dura y elástica </li>
+                   <li>Vuelve a cubrir el bol con papel film transparente y mete en el microondas otros <br>dos minutos. Saca y amasa de nuevo, repitiendo 
+                    el proceso hasta que veas que la superficie<br> de la masa se torna brillante.
+                     Este es el punto exacto que debemos lograr para que <br>la masa este lo suficientemente elástica. </li>
+                     <li>Usa un mortero, poniendo la masa en el para machacarlo poco a poco. Añade un poco de <br>almidón de patata para
+                         evitar que la masa se pegue, haciendo la masa mas suave.<br> Usa el mazo del mortero para machacar, 
+                         hasta que la masa este suave y bien integrada </li>
+                         <li>Sigue trabajando la masa con las manos, dándole vueltas y amasándola hasta lograr una textura<br> de mochi perfecta.
+                             Si lo deseas, puedes añadir colorante a la masa, mezclando bien para que el color quede homogéneo. </li>
+                             <li>Divide la masa en 12 o 13 partes del mismo tamaño, haciendo bolitas y aplanándolas para poner el relleno en el centro.
+                                 Añade tu ingrediente favorito, y cierra la masa haciendo una bola perfecta.</li>
+                                <li>Trabaja la masa sobre una superficie espolvoreada con almidón de patata o maizena, de 
+                                    manera que el exterior quede cubierto por una fina cada de este ingrediente al terminar de hacer las bolitas. </li>
+                                </ul>
+        
+            </div>
+
+            <!--Ingredientes y Preparación de Mochis de Chocolate -->
+            <div id="ingredientes-chocolate" class="bg-white p-6 rounded-lg shadow-lg hidden text-center">
+                <h3 class="text-2xl font-bold text-brown-700 mb-4">🛒 Ingredientes de Mochis de Chocolate</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2 inline-block text-left">
+                    <li><strong>🍫 Chocolate con leche:</strong> 100g</li> 
+                    <li><strong>🍫 Chocolate negro:</strong> 90g</li>
+                    <li><strong>🥛 Nata:</strong> 125g</li>
+                    <li><strong>🧈 Mantequilla:</strong> 45g</li> 
+                    <li><strong>🍬 Azúcar:</strong> 110g</li>        
+                    <li><strong>🥔 Fécula de patata:</strong> 100g</li>
+            
+                    <li class="mt-4 font-semibold text-brown-700">📌 Masa de Mochi de Cacao</li>
+                    <li><strong>🌾 Harina de arroz glutinoso:</strong> 120g</li>
+                    <li><strong>🍫 Cacao en polvo sin azúcar:</strong> 25g</li>
+                    <li><strong>🥛 Leche semidesnatada:</strong> 285g</li>
+                    <li><strong>🧈 Mantequilla blanda:</strong> 55g</li>
+                </ul>
+            </div>
+            
+
+            <div id="preparacion-chocolate" class="bg-white p-6 rounded-lg shadow-lg hidden">
+                <h3 class="text-2xl font-bold text-brown-700 mb-4">🍫 Preparación de Mochis de Chocolate</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                <li>Comience por preparar el ganache, incluso el día anterior. 
+                    Poner todos los ingredientes en un recipiente apto para microondas o al baño María.
+                    Derretir la mezcla removiendo bien</li>
+            
+            
+                    <li>En el microondas, utilice incrementos de 30 segundos como máximo.El ganache debe ser suave  </li>
+                    <li>Cubrir con film transparente y refrigerar durante al menos 3-4 horas o toda la noche. </li>
+                      <li> harina de arroz glutinoso que debe utilizar para esta receta. </li>
+                      <li>  Poner la harina de arroz glutinoso, el cacao sin azúcar y el azúcar en un recipiente apto para microondas.</li>
+                      <li>   Verter la leche sin dejar de remover. No contiene gluten, por lo que no hay riesgo de que se formen grumos </li>
+                     
+                     <li> Caliente durante 2 minutos a 900w, o al máximo de su horno, (cada horno, incluso con la potencia, da resultados diferentes). 
+                        El líquido debe estar caliente. Añadir la mantequilla blanda y mezclar hasta su completa incorporación</li>
+                    
+                    </ul>
+            </div>
+
+            <!--  Ingredientes y Preparación de Mochis de Vainilla -->
+            <div id="ingredientes-vainilla" class="bg-white p-6 rounded-lg shadow-lg hidden">
+                <h3 class="text-2xl font-bold text-yellow-500 mb-4">🛒 Ingredientes de Mochis de Vainilla</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                   
+         <li><strong>1 taza de harina de arroz glutinoso (mochiko)</strong></li>
+
+        <li>3/4 de taza de agua</li>
+   <li><strong>1/4 </strong>de taza de azucar </li>
+      <li><strong> 1/2</strong>cucharadita de extracto de vainilla</li> 
+    <li><strong>Fécula de maíz (para espolvorear)</strong></li>
+    <li><strong> 1 </strong>taza de helado de vainilla (o crema de vainilla)</li> 
+                </ul>
+            </div>
+
+            <div id="preparacion-vainilla" class="bg-white p-6 rounded-lg shadow-lg hidden">
+                <h3 class="text-2xl font-bold text-yellow-500 mb-4">🍦 Preparación de Mochis de Vainilla</h3>
+                <ul class="list-disc list-inside text-gray-700 space-y-2">
+                    
+<li>1. Preparar el relleno</li>
+
+<p></p>Si usas helado, haz pequeñas bolitas y congélalas en una bandeja con papel encerado. 
+    Déjalas en el congelador hasta que estén completamente firmes (mínimo 1 hora)</p>
+
+
+
+<li>2. Hacer la masa de mochi</li>
+
+En un tazón apto para microondas, mezcla la harina de arroz glutinoso, el azúcar, 
+el extracto de vainilla y el agua hasta obtener una mezcla homogénea.
+
+Cubre el tazón con papel film dejando una pequeña abertura y calienta en el microondas por 1 minuto.
+
+Saca, revuelve bien y vuelve a calentar por intervalos de 30 segundos, 
+mezclando cada vez, hasta que la masa esté espesa y pegajosa (aproximadamente 2 minutos en total).
+
+
+<li>3. Formar los mochis</li>
+
+Espolvorea una superficie con fécula de maíz y coloca la masa caliente sobre ella.
+
+Deja enfriar un poco y estírala con un rodillo hasta que tenga aproximadamente 3 mm de grosor.
+
+Corta círculos de unos 8-10 cm de diámetro.
+
+
+<li>4. Rellenar y dar forma</li>
+
+Saca las bolitas de helado del congelador.
+
+Coloca una bolita en el centro de cada círculo de masa y envuélvela con cuidado, sellando los bordes pellizcando la masa.
+
+Coloca los mochis en una bandeja con el cierre hacia abajo y congélalos durante unos 30 minutos para que mantengan su forma
+            </div>
+        </ul>
+        </div>
+
+  <!--  Ingredientes de Mochis de Matcha -->
+<div id="ingredientes-matcha" class="bg-white p-6 rounded-lg shadow-lg hidden text-center">
+    <h3 class="text-2xl font-bold text-green-500 mb-4">🛒 Ingredientes de Mochis de Matcha</h3>
+    <ul class="list-disc list-inside text-gray-700 space-y-2 inline-block text-left">
+        <li><strong>🌾 Harina de arroz glutinoso:</strong> 250g</li> 
+        <li><strong>🍬 Azúcar:</strong> 100g</li>
+        <li><strong>💧 Agua:</strong> 250ml</li> 
+        <li><strong>🥔 Almidón de patata (katakuriko) o maizena</strong></li>
+        <li><strong>🍵 Té verde en polvo matcha:</strong> 10g</li> 
+    </ul>
+</div>
+
+<!--  Preparación de Mochis de Matcha -->
+<div id="preparacion-matcha" class="bg-white p-6 rounded-lg shadow-lg hidden flex justify-center items-center min-h-screen">
+    <div class="max-w-3xl w-full">
+        <h3 class="text-3xl font-bold text-green-500 mb-6 text-center">🍵 Preparación de Mochis de Matcha</h3>
+        <ul class="list-disc list-inside text-gray-700 space-y-4 text-lg">
+            <li>Calienta unas cinco cucharadas de agua y mezcla con el té matcha hasta que no queden grumos. Deja enfriar.</li> 
+            <li>Pon la harina de arroz y el azúcar en un bol y mezcla bien.</li>
+            <li>Añade el agua y mezcla de nuevo.</li>
+            <li>Añade el té matcha diluido y mezcla hasta que quede homogéneo.</li>
+            <li>Calienta en el microondas durante 2 minutos, tapado con papel film.</li>  
+            <li>Saca y remueve. Si la superficie es brillante, la masa ya está lista.</li>
+            <li>Espolvorea almidón de patata en una superficie plana y en tus manos.</li>
+            <li>Divide la masa en 14-15 porciones y aplánalas en forma de círculos.</li>
+            <li>Coloca el relleno en el centro de cada uno y ciérralos formando bolitas.</li>
+        </ul>
+    </div>
+</div>
+
+
+    </div>
+
+<!--  Sección de Videos -->
+<div id="videos" class="bg-white p-6 rounded-lg shadow-lg hidden">
+    <h3 class="text-3xl font-bold text-gray-800 mb-6 text-center">🎥 Videos de Mochis</h3>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 place-items-center">
+        <!-- Mochis de Fresa -->
+        <div class="w-full max-w-lg">
+            <iframe class="w-full h-[300px] rounded-lg shadow-md border border-gray-300"
+                src="https://www.youtube.com/embed/UeCkEKuqm6M" allowfullscreen>
+            </iframe>
+            <p class="text-center text-gray-700 mt-2 font-semibold">🍓 Mochis de Fresa</p>
+        </div>
+
+        <!-- Mochis de Chocolate -->
+        <div class="w-full max-w-lg">
+            <iframe class="w-full h-[300px] rounded-lg shadow-md border border-gray-300"
+                src="https://www.youtube.com/embed/E2gPoEAVBUw" allowfullscreen>
+            </iframe>
+            <p class="text-center text-gray-700 mt-2 font-semibold">🍫 Mochis de Chocolate</p>
+        </div>
+
+        <!-- Mochis de Vainilla (Corrección del enlace) -->
+        <div class="w-full max-w-lg">
+            <iframe class="w-full h-[300px] rounded-lg shadow-md border border-gray-300"
+                src="https://www.youtube.com/embed/sTlbqr12bQk" allowfullscreen>
+            </iframe>
+            <p class="text-center text-gray-700 mt-2 font-semibold">🍦 Mochis de Vainilla</p>
+        </div>
+
+        <!-- Mochis de Matcha (Corrección del enlace) -->
+        <div class="w-full max-w-lg">
+            <iframe class="w-full h-[300px] rounded-lg shadow-md border border-gray-300"
+                src="https://www.youtube.com/embed/gVg-tAkP91M" allowfullscreen>
+            </iframe>
+            <p class="text-center text-gray-700 mt-2 font-semibold">🍵 Mochis de Matcha</p>
+        </div>
+    </div>
+</div>
+
+
+                   <!--  Sección de Galería -->
+                   <div id="galeria" class="bg-white p-6 rounded-lg shadow-lg hidden">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4 text-center">🖼️ Galería de Mochis</h3>
+                    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                        <img src="imagenes/MOCHIS_FRESA.jpeg" alt="Mochi de Fresa" class="rounded-lg shadow-md w-full h-[200px] object-cover">
+                        <img src="imagenes/MOCHIS _COHOLATE.jpeg" alt="Mochi de Chocolate" class="rounded-lg shadow-md w-full h-[200px] object-cover">
+                        <img src="imagenes/mochi de vainilla.jpeg" alt="Mochi de Vainilla" class="rounded-lg shadow-md w-full h-[200px] object-cover">
+                        <img src="imagenes/mochi de matcha.jpeg" alt="Mochi Variado" class="rounded-lg shadow-md w-full h-[200px] object-cover">
+                    </div>
+                </div>
+
+    <!-- JavaScript para mostrar/ocultar secciones -->
+    <script>
+        function mostrarSeccion(id) {
+            document.querySelectorAll("div[id]").forEach(div => {
+                div.classList.add("hidden");
+            });
+            document.getElementById(id).classList.remove("hidden");
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
